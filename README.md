@@ -1,6 +1,6 @@
 # Semi-Leak
 
-This is a PyTorch implementation of Model Stealing Attacks Against Inductive Graph Neural Networks, as described in our paper:
+This is a PyTorch implementation of Semi-Leak: Membership Inference Attacks Against Semi-supervised Learning, as described in our paper:
 
 Xinlei He, Hongbin Liu, Neil Zhenqiang Gong, Yang Zhang: Semi-Leak: Membership Inference Attacks Against Semi-supervised Learning (ECCV 2022)
 
