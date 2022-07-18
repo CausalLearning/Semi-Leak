@@ -37,16 +37,16 @@ python query_target.py --dataset cifar10 --num_classes 10 --num_labels 500 --wid
 ###  Conventional attacks
 ```
 # NN-based attacks
-python3 mia_normal.py --attack_name black-box --ssl_method fixmatch --dataset cifar10 --num_classes 10 --num_labels 500 --target_epoch 100 --save_dir ./saved_models
+python mia_normal.py --attack_name black-box --ssl_method fixmatch --dataset cifar10 --num_classes 10 --num_labels 500 --target_epoch 100 --save_dir ./saved_models
 
 # Metric-based attacks
-python3 mia_normal.py --attack_name metric --ssl_method fixmatch --dataset cifar10 --num_classes 10 --num_labels 500 --target_epoch 100 --save_dir ./saved_models
+python mia_normal.py --attack_name metric --ssl_method fixmatch --dataset cifar10 --num_classes 10 --num_labels 500 --target_epoch 100 --save_dir ./saved_models
 
 ```
 
 ### Data augmentation-based attacks
 ```
 
-python3 mia_augmented.py --ssl_method fixmatch  --dataset cifar10 --num_classes 10 --num_labels 500 --target_epoch 100 --save_dir ./saved_models --similarity_func jensenshannon --augmented_num 10
+python mia_augmented.py --ssl_method fixmatch  --dataset cifar10 --num_classes 10 --num_labels 500 --target_epoch 100 --save_dir ./saved_models --similarity_func jensenshannon --augmented_num 10
 
 ```
